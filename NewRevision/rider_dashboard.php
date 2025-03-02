@@ -196,6 +196,10 @@ while ($order = $activeDeliveriesResult->fetch_assoc()) {
 
     <!-- Main Content -->
     <div class="main-content">
+        <div id="dashboard" class="content-section active">
+            <h1>Dashboard</h1>
+            <p>Welcome to your dashboard, <?php echo htmlspecialchars($rider['FullName']); ?>!</p>
+        </div>
         <!-- Active Deliveries Content -->
         <div id="active-deliveries" class="content-section active">
             <h1>Active Deliveries</h1>
